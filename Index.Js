@@ -16,7 +16,7 @@ if (!msg.message) return
 const text = msg.message.conversation || msg.message.extendedTextMessage?.text
 
 if (text === "hi") {
-await sock.sendMessage(msg.key.remoteJid, { text: "Hello Danny 👋🔥" })
+await sock.sendMessage(msg.key.remoteJid, { text: "Danny's md is online 🔥" })
 }
 })
 
